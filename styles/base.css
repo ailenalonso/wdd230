@@ -15,7 +15,7 @@ header {
     background-color: #313628;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header-content {
@@ -54,7 +54,6 @@ nav li:hover {
 
 nav li {
     display: block;
-    margin-right: 20px;
     padding: 5px;
 }
 
@@ -90,3 +89,31 @@ footer {
     padding: 1rem;
     font-size: .9rem;
 }
+
+#hamburgerBtn {
+    background-color: #595358;
+    font-size: 2rem;
+    margin-top: -2%;
+    color: #ffffff;
+    text-align: end;
+}
+
+#primaryNav ul {
+    list-style-type: none;
+    margin: .2rem 2vw;
+    padding: 0;
+}
+
+nav {display: none;}
+nav.open {
+    display: block;
+    grid-column: 1/4;
+    margin-bottom: 2%;
+}
+
+#primaryNav a {
+    display: block;
+    padding: .2rem 2vw;
+    text-decoration: none;
+}
+
