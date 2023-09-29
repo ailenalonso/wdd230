@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vicente Lopez Chamber of Commerce Homepage</title>
+    <meta name="description" content="This page will contain the homepage of Vicente Lopez Chamber of Commerce site.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a class="logo-image" href="index.html">
+                <img class="logo" src="images/Logo.png" alt="Vicente Lopez Chamber of Commerce">
+            </a>
+            <section class="company">
+                <h1>Vicente Lopez Chamber of Commerce</h1>
+            </section>
+        </div>
+        <div class="navigation">
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home-grid">
+        <section id="hero-banner">
+            <a href="#">Join the Chamber</a>
+            <p class="text-light italic">Hero with site name and call to action</p>
+        </section>
+        <section class="event">
+            <p class="text-light italic">Event</p>
+        </section>
+        <section class="weather">
+            <p class="text-light italic">Weather</p>
+        </section>
+        <div class="spotlight">
+            <section class="spotlight1">
+                <p class="text-light italic">Spotlight 1</p>
+            </section>
+            <section class="spotlight2">
+                <p class="text-light italic">Spotlight 2</p>
+            </section>
+            <section id="spotlight3" class="large-only">
+                <p class="text-light italic">Spotlight 3</p>
+            </section>
+        </div>
+    </main> 
+    <footer>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> | Ailen Alonso | Buenos Aires | WDD 230 Chamber of Commerce Project</p>
+            <p id="lastModified"></p>
+        </footer>
+    </footer>
+    <script src="scripts/lastUpdated.js" defer></script>
+    <script src="scripts/currentYear.js"></script>
+    <script src="scripts/currentTime.js"></script>
+</body>
+</html>

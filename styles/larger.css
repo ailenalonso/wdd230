@@ -27,4 +27,15 @@
         text-align: center;
     }
 
+    main {
+        max-width: 900px;
+	    margin: 0 auto;
+    }
+
+    .hero picture img {
+        height: 100%;
+        width: 100%;
+    }
+    
+
 }
