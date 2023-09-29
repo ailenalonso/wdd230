@@ -21,7 +21,7 @@ img {
 }
 
 header {
-    background-color: #85877C;
+    background-color: #1F271B;
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-bottom: 5%;
@@ -94,7 +94,7 @@ header a {
 }
 
 #primaryNav a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: #AD8A64;
 }
 
 main {
@@ -126,7 +126,6 @@ main section p, main div p {
 #hero-banner h2 {
     position: absolute;
     color: black;
-    text-shadow: 2px 2px 5px #00B295;
     margin-left: 3%;
     font-size: 1.5rem;
 }
@@ -189,7 +188,7 @@ main section p, main div p {
 
 
 footer {
-    background-color:  #85877C;
+    background-color: #1F271B;
     display: block;
     padding: 2% 2% 0 2%;
     align-items: center;

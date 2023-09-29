@@ -52,23 +52,6 @@
         justify-content: center;
     }
     
-    #join a {
-        text-decoration: none;
-        background-color: #F28123;
-        border-radius: 10px;
-        color: white;
-        display: block;
-        width: 90%;
-        margin-top: 3%;
-        padding: 5% 0 5% 0;
-        box-shadow: 5px 5px 5px #603613;
-    }
-    
-    #join a:hover {
-        background-color: #ececec;
-        color: #69140E;
-    }
-    
     /*footer*/
     footer {
         display: grid;
