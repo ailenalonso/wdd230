@@ -59,4 +59,13 @@
         align-items: center;
     }
     
+     /*Directory Styles*/
+    .businessCards section {
+        box-sizing: border-box;
+        grid-column: auto;
     }
+            
+    .businessCards a {
+        overflow-wrap: break-word;
+    }
+}

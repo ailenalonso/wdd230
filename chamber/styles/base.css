@@ -167,3 +167,22 @@ footer {
     border-radius: 10px;
     color: white;
 }
+
+/*Discover Styles*/
+#daysBetweenVisits {
+    display: block;
+    box-sizing: border-box;
+    background-color: #1F271B;
+    color: white;
+    padding: 2% 1% 2% 1%;
+    font-size: 150%;
+    border-radius: 10px;
+}
+
+.discover-imgs {
+    box-sizing: border-box;
+    border: 5px transparent #1F271B;
+    box-shadow: 10px 10px 15px #1F271B;
+    width: 80%;
+    border-radius: 10px;
+}
