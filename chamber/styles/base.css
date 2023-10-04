@@ -179,3 +179,36 @@ footer {
     border-radius: 10px;
 }
 
+.discover-imgs {
+    box-sizing: border-box;
+    border: 5px transparent #1F271B;
+    box-shadow: 10px 10px 15px #1F271B;
+    width: 80%;
+    border-radius: 10px;
+}
+.container {
+    grid-template-columns: 1fr; /* Single column layout on mobile */
+}
+
+.sidebar {
+    order: 1; /* Move the sidebar below the content on mobile */
+    padding: 20px;
+}
+
+.discover-grid {
+    order: 2; /* Move the content above the sidebar on mobile */
+    padding: 20px;
+}
+
+.discover-grid section, main div {
+    background-color: #ececec;
+    border: 1px solid rgb(0, 0, 0);
+    width: 90%;
+}
+
+.daysBetweenVisits {
+    order: 3;
+    padding: 20px;
+    font-size: 50%;
+}
+

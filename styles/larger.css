@@ -5,6 +5,14 @@
         text-align: center;
     }
 
+    main picture {
+        grid-column: 1 / 3;
+    }
+    
+    #overlay {
+        font-size: 2rem;
+    }
+
     h2 {
         grid-column: span 2;
     }
@@ -35,6 +43,10 @@
     .hero picture img {
         height: 100%;
         width: 100%;
+    }
+
+    iframe {
+        grid-column: 1 / 3;
     }
     
 
