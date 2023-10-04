@@ -9,7 +9,7 @@
         grid-column: 1 / 3;
     }
     
-    #overlay {
+    #hero-label {
         font-size: 2rem;
     }
 
@@ -38,11 +38,6 @@
     main {
         max-width: 900px;
 	    margin: 0 auto;
-    }
-
-    .hero picture img {
-        height: 100%;
-        width: 100%;
     }
 
     iframe {
