@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: azure;
+}
+
+main {
+    background-color: azure;
+    color: black;
+}
+
+img[data-src] {
+    display: block;
+    margin: 50px auto;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 1rem;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Lazy Loading Exercise</title>
+    <meta name="description" content="WDD 230 - Lazy Loading Exercise - Ailen Alonso">
+    <meta name="author" content="Ailen Alonso">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy loading Exercise</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image1.jpg" alt="interior1" loading="lazy"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image2.jpg" alt="interior" loading="lazy"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image3.jpg" alt="interior" loading="lazy"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image4.jpg" alt="interior" loading="eager"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image5.jpg" alt="interior" loading="lazy"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/image6.jpg" alt="interior" loading="lazy"/>
+        </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Ailen Alonso | Buenos Aires</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/scripts.js" defer></script>
+</body>
+</html>
