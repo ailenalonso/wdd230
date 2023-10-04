@@ -179,10 +179,3 @@ footer {
     border-radius: 10px;
 }
 
-.discover-imgs {
-    box-sizing: border-box;
-    border: 5px transparent #1F271B;
-    box-shadow: 10px 10px 15px #1F271B;
-    width: 80%;
-    border-radius: 10px;
-}
