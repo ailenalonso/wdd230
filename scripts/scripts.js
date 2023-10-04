@@ -42,14 +42,14 @@ modeButton.addEventListener("click", () => {
 });
 
 //Number of visits
-const visitsDisplay = document.querySelector(".visits");
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+const visits = document.querySelector(".number-of-visits");
+let numberOfVisits = Number(window.localStorage.getItem("numberOfVisits-ls")) || 0;
 
-if (numVisits !== 0) {
-  visitsDisplay.textContent = numVisits;
+if (numberOfVisits !== 0) {
+  visits.textContent = numberOfVisits;
 } else {
-  visitsDisplay.textContent = `0`;
+  visits.textContent = `0`;
 }
 
-numVisits++;
-localStorage.setItem("numVisits-ls", numVisits);
+numberOfVisits++;
+localStorage.setItem("numberOfVisits-ls", numberOfVisits);
