@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ailen Alonso - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content=" This is the WDD 230 Form Activity of Ailen Alonso">
+        <meta name="author" content="Ailen Alonso">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <meta property="og:title" content="Ailen Alonso - WDD 230 - Web Frontend Development">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.vicentelopez.gov.ar/contenido/2021-04-21-883-imagen.jpg">
+        <meta property="og:url" content="https://ailenalonso.github.io/wdd230">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="avatar">
+                    <img src="images/ailen.webp" alt="image of Ailen">
+                </div>
+                <div class="title">
+                    <h1>Ailen Alonso</h1>
+                </div>
+            </div>
+            <div id="mode">
+                ☑️
+            </div>
+        </header>
+        <div class="navigation">
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+        <main class="grid-container">
+            <h2>Create Account</h2>
+            <form action="record.html" method="get">
+                <fieldset>
+                    <legend>Required Information</legend>
+                    <label id="username">Username
+                        <input type="text" name="username" autocomplete="on" required>
+                    </label>
+                    <label>Password <span>(At least 8 characters long using only letters and numbers)</span>
+                        <input id="password" type="password" name="password" pattern="[A-Za-z0-9]{8,}" required>
+                    </label>
+                    <label>Confirm Password
+                        <input id="password-confirmation" type="password" name="password-confirmation"required>
+                    </label>
+                    <label id="email">Email<span>(Must be a valid BYU-I email address)</span>
+                        <input type="email"name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address" autocomplete="on" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Optional Information</legend>
+                    <label id="range-label" for="r">Page Rating<br><span id="rangevalue">0</span><span>/10</span>
+                        <input id="r" type="range" name="r" min="0" max="10" value="0" step="1">
+                    </label>
+                </fieldset>
+                <div id="form-message">No errors to report</div>
+                <input class="submit-button" type="submit" value="Create Your Account">
+            </form>
+        </main>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> | Ailen Alonso | Buenos Aires</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>

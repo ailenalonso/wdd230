@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vicente Lopez Chamber of Commerce Homepage</title>
+    <meta name="description" content="This page will contain the homepage of Vicente Lopez Chamber of Commerce site.">
+    <meta name="author" content="Ailen Alonso">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Vicente Lopez Chamber of Commerce - Ailen Alonso - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.vicentelopez.gov.ar/contenido/2021-04-21-883-imagen.jpg">
+    <meta property="og:url" content="https://ailenalonso.github.io/wdd230/chamber">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a class="logo-image" href="index.html">
+                <img class="logo" src="images/Logo.png" alt="Vicente Lopez Chamber of Commerce">
+            </a>
+            <section class="company">
+                <h1>Vicente Lopez Chamber of Commerce</h1>
+            </section>
+        </div>
+        <div class="navigation">
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="join-grid">
+        <form action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Position Title<input type="text" name="title" pattern=".[A-Za-z\- ]{7,}"
+                        title="Seven or more characters. Alphabet/hyphen/spaces."></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="user@email.com"
+                        required></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Organization Information</legend>
+                <label class="top">Business name/title*<input type="text" name="title" required></label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes"> NP Member for non profit
+                    organizations and there is no fee</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes"> Bronze Member</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes"> Silver Member</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes"> Gold Member</label>
+                <label class="description">Describe your business<textarea name="description"></textarea></label>
+            </fieldset>
+            <input class="formLoadTime" type="hidden" name="hiddenTime">
+            <input class="submitBtn" type="submit" name="submitf" value="Apply For Membership">
+        </form>
+        <section id="benefits" class="large-only">
+            <h2>Membership Benefits</h2>
+            <hr>
+            <section class="membership-benefit">
+                <h3>NP Membership - Non profit organizations</h3>
+                <p>Free</p>
+                <p>Acces to: Some of our best trainings, acces to our events.</p>
+            </section>
+            <section class="membership-benefit">
+                <h3>Bronze Membership</h3>
+                <p>$10 per month</p>
+                <p>Acces to: All the Trainings, Acces to our events, Advertising.</p>
+            </section>
+            <section class="membership-benefit">
+                <h3>Silver Membership</h3>
+                <p>$15 per montn</p>
+                <p>Acces to: All the Trainings, Acces to our events, Advertising, Support.</p>
+            </section>
+            <section class="membership-benefit">
+                <h3>Gold Membership</h3>
+                <p>$20 per montn</p>
+                <p>Acces to: All the Trainings, Acces to our events, Advertising, Support, Event discounts.</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Ailen Alonso | Buenos Aires | WDD 230 Chamber of Commerce Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/lastUpdated.js" defer></script>
+    <script src="scripts/currentYear.js"></script>
+    <script src="scripts/currentTime.js"></script>
+</body>
+</html>
