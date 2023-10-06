@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ailen Alonso - WDD 230 - Web Frontend Development</title>
+        <title>Ailen Alonso - WDD 230 - Form Activity</title>
         <meta name="description" content=" This is the WDD 230 Form Activity of Ailen Alonso">
         <meta name="author" content="Ailen Alonso">
         <link rel="stylesheet" href="styles/normalize.css">
@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="styles/larger.css">
         <link rel="stylesheet" href="styles/form.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <meta property="og:title" content="Ailen Alonso - WDD 230 - Web Frontend Development">
+        <meta property="og:title" content="Ailen Alonso - WDD 230 - Form Activity">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://www.vicentelopez.gov.ar/contenido/2021-04-21-883-imagen.jpg">
-        <meta property="og:url" content="https://ailenalonso.github.io/wdd230">
+        <meta property="og:url" content="https://ailenalonso.github.io/wdd230/form.html">
     </head>
     <body>
         <header>
@@ -42,14 +42,13 @@
             </ul>
         </nav>
         <main class="grid-container">
-            <h2>Create Account</h2>
+            <h2>Create your account</h2>
             <form action="record.html" method="get">
                 <fieldset>
-                    <legend>Required Information</legend>
                     <label id="username">Username
                         <input type="text" name="username" autocomplete="on" required>
                     </label>
-                    <label>Password <span>(At least 8 characters long using only letters and numbers)</span>
+                    <label>Password <span>(Must be at least eight (8) characters long and can only be alpha-numeric)</span>
                         <input id="password" type="password" name="password" pattern="[A-Za-z0-9]{8,}" required>
                     </label>
                     <label>Confirm Password
@@ -58,15 +57,11 @@
                     <label id="email">Email<span>(Must be a valid BYU-I email address)</span>
                         <input type="email"name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" title="Please enter a valid email address" autocomplete="on" required>
                     </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Optional Information</legend>
                     <label id="range-label" for="r">Page Rating<br><span id="rangevalue">0</span><span>/10</span>
                         <input id="r" type="range" name="r" min="0" max="10" value="0" step="1">
                     </label>
                 </fieldset>
-                <div id="form-message">No errors to report</div>
-                <input class="submit-button" type="submit" value="Create Your Account">
+                <input class="submit-button" type="submit" value="Register">
             </form>
         </main>
         <footer>
