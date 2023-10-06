@@ -1,0 +1,68 @@
+body{
+    margin: 0 auto;
+    font-family: Ubuntu, sans-serif;
+    width: 80%;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    color: Black;
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+    font-family: Ubuntu, sans-serif;
+    font-size: 13pt;
+    border-collapse: collapse;
+    border: 2px solid black; 
+    margin: 0 auto;
+}
+
+thead {
+    background-color: rgb(187, 189, 192);
+}
+
+.blank, .tablename{
+    background-color: black;
+    color:white;
+    border: solid black; 
+    padding: 20px;
+    font-size: 20px;
+}
+
+.firstline {
+    background-color: rgb(174, 173, 177);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(203, 202, 206);
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+td, th, caption {
+    padding: 10px;
+}
+
+table, caption, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table1 {
+    caption-side: bottom;
+    margin-top: 5px;
+    color: black; 
+    background-color: white;
+    border: none;
+}
+
+.check{
+    color: #06D6A0;
+}
+
+.x{
+    color: #EF2917;
+}
