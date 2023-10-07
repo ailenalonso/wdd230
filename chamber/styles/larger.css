@@ -153,7 +153,7 @@
         gap: 15px;
         align-items: center;
     }
-     
+
     #benefits {
         grid-column: 2/3;
         height: 95%;
@@ -172,8 +172,5 @@
         margin-left: 30%;
     }
 
-    .large-only {
-        display: block;
-    }
 
 }
