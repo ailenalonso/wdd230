@@ -42,13 +42,13 @@
         <form action="thankyou.html">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">First Name*<input type="text" name="fname" autocomplete="on" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" autocomplete="on" required></label>
                 <label class="top">Position Title<input type="text" name="title" pattern=".[A-Za-z\- ]{7,}"
                         title="Seven or more characters. Alphabet/hyphen/spaces."></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="user@email.com"
-                        required></label>
-                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                    autocomplete="on" required></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" autocomplete="on" required></label>
             </fieldset>
             <fieldset>
                 <legend>Organization Information</legend>
@@ -94,6 +94,5 @@
     </footer>
     <script src="scripts/lastUpdated.js" defer></script>
     <script src="scripts/currentYear.js"></script>
-    <script src="scripts/currentTime.js"></script>
 </body>
 </html>
