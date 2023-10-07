@@ -143,29 +143,37 @@
     
     }
 
-        /*Join styles*/
-        .join-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 15px;
-            align-items: center;
-        }
-            
-        #benefits {
-            grid-column: 2/3;
-            height: 90%;
-            border-radius: 10px;
-        }
-            
-        .membership-benefit {
-            border: none;
-            width: auto;
-            height: auto;
-        }
-            
-        .membership-benefit li {
-            text-align: start;
-            width: 50%;
-            margin-left: 25%;
-        }
+    
+    /*Join Styles*/
+    .join-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin: auto;
+        margin-right: 35px;
+        gap: 15px;
+        align-items: center;
+    }
+     
+    #benefits {
+        grid-column: 2/3;
+        height: 95%;
+        border-radius: 10px;
+    }
+        
+    .membership-benefit {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+        
+    .membership-benefit li {
+        text-align: start;
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    .large-only {
+        display: block;
+    }
+
 }
