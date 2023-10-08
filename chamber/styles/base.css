@@ -60,11 +60,10 @@ header .company h1 {
 }
 
 #hamburgerBtn {
-    background-color: #7FBEAB;
-    color: #fff;
+    background-color: #f3fcf0;
+    color: black;
     font-size: 2rem;
     margin-top: -2%;
-    color: white;
 }
 
 #primaryNav ul {
