@@ -209,28 +209,20 @@ footer {
     margin-top: 0.5rem;
 }
 
-.weather p {
+.weather-discover p {
     margin: 0 0 0 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
 }
   
-  
-.weather img {
-    grid-row: 1/3;
-    align-self: center;
-    justify-self: right;
-    margin: 0 1rem;
-}
-  
-.weather p:last-child {
+.weather-discover p:last-child {
     font-weight: bold;
 }
 
 
 .agenda,
-.weather,
+.weather-discover,
 .demographics {
   padding: 1rem;
   border: 1px solid var(--primary-color);
