@@ -7,14 +7,14 @@ if (daysBetweenVisits !== 0){
     findDaysBetween -= daysBetweenVisits;
     findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
     if (findDaysBetween < 1){
-        document.getElementById("daysBetweenVisits").textContent = "No days have passed since your last visit";
+        document.getElementById("daysBetweenVisits").textContent = "Back so soon! Awesome!";
     }
     else{
         document.getElementById("daysBetweenVisits").textContent = `Last Visit: ${findDaysBetween} day(s) ago.`;
     }
 }
 else {
-    document.getElementById("daysBetweenVisits").innerHTML = "Join us again soon!";
+    document.getElementById("daysBetweenVisits").innerHTML = "Welcome! Let us know if you have any questions.";
 }
 
 localStorage.setItem("last-visit-ls", timeStamp);
