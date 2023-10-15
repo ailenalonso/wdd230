@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vicente Lopez Chamber of Commerce Discover Page</title>
+    <meta name="description" content="This page will contain the Discover Page of Vicente Lopez Chamber of Commerce site.">
+    <meta name="author" content="Ailen Alonso">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Discover - Vicente Lopez Chamber of Commerce - Ailen Alonso - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.vicentelopez.gov.ar/contenido/2021-04-21-883-imagen.jpg">
+    <meta property="og:url" content="https://ailenalonso.github.io/wdd230/chamber/discover.html">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a class="logo-image" href="index.html">
+                <img class="logo" src="images/Logo.png" alt="Vicente Lopez Chamber of Commerce">
+            </a>
+            <section class="company">
+                <h1>Vicente Lopez Chamber of Commerce</h1>
+            </section>
+        </div>
+        <div class="navigation">
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="directory-main" class="directory-grid">
+        <div class="inner">
+            <h1>Business Directory</h1>
+            <button id="layoutBtn" class="listBtn">List</button>
+        </div>
+        <div class="businessCards"></div>
+    </main> 
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Ailen Alonso | Buenos Aires | WDD 230 Chamber of Commerce Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/lastUpdated.js" defer></script>
+    <script src="scripts/currentYear.js"></script>
+    <script src="scripts/days.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
