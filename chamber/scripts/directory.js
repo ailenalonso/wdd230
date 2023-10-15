@@ -1,5 +1,5 @@
 async function getBusinessesData() {
-    const response = await fetch("data/data.json");
+    const response = await fetch("data/members.json");
     const data = await response.json();
     //console.table(data.businesses);
     displayBusinesses(data.businesses);
