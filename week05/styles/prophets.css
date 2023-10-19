@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(243, 233, 220);
+}
+
+h1 {
+    color: rgb(0, 0, 58);
+    text-align: center;
+}
+
+h1, h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cards section {
+    margin: 10px;
+}
+.cards section img {
+    max-width: 100%;
+}
+
+@media screen and (min-width:40em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:80em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
