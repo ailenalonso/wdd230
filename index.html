@@ -56,9 +56,14 @@
               </section>
             <section class="card">
                 <h3>Information</h3>
-                    <p>Weather</p>
-                    <p>Number of visits</p>
-                    <p>Page Visits : <span class="number-of-visits"></span></p>
+                <p id="weather-location"></p>
+                <div class="weather">
+                  <img id="weather-icon" src="#" alt="">
+                  <span id="current-temp"></span>
+                  <span>&nbsp;-&nbsp;</span>
+                  <span id="weather-description"></span>
+                </div>
+                <p>Page Visits : <span class="number-of-visits"></span></p>
             </section>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13148.363002662001!2d-58.546362503477646!3d-34.52592868747331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0bebef08997%3A0xc4fdb0870c9ff855!2sCarapachay%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1696424675007!5m2!1ses-419!2sar" 
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -69,5 +74,6 @@
         </footer>
         <script src="scripts/scripts.js"></script>
         <script src="scripts/links.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>
