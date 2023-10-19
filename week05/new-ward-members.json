@@ -1,0 +1,24 @@
+{
+    "familyName": "Rodriguez",
+    "moveInDate": "2023-10-01",
+    "numOfRecords": 3,
+    "visitComplete": true,
+    "familyMembers": [
+      {
+        "name": "Marcos",
+        "gender": "male",
+        "birthdate": "1988-05-10"
+      },
+      {
+        "name": "Sofia",
+        "gender": "female",
+        "birthdate": "1990-12-05"
+      },
+      {
+        "name": "Valentina",
+        "gender": "female",
+        "birthdate": "2020-02-02"
+      }
+    ]
+}
+  
