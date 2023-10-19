@@ -1,0 +1,105 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holygrail Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query"
+          },
+          {
+            "url": "week01/chamber-site-plan.html",
+            "title": "Chamber Site Plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/desing.html",
+            "title": "Web Design Principles"
+          },
+          {
+            "url": "https://codepen.io/ailenalonso/pen/JjwMBQw",
+            "title": "Responsive Hamburger Menu"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "DOM Manipulation Activity"
+          },
+          {
+            "url": "chamber/index.html",
+            "title": "Chamber Home Page"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Load"
+          },
+          {
+            "url": "week03/reponsive-images.html",
+            "title": "Responsive Image"
+          },
+          {
+            "url": "week03/bom.html",
+            "title": "Weather API"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "",
+            "title": "Pseudo-classes"
+          },
+          {
+            "url": "",
+            "title": "Combinators"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "TableHTML Tables for Data Presentation"
+          },
+          {
+            "url": "",
+            "title": "Form Practice"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/ailenalonso/pen/XWovvgm",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "The Fetch API"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Weather API"
+          }
+        ]
+      }
+    ]
+  }
