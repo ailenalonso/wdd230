@@ -63,11 +63,11 @@
         "week": "Week 4",
         "links": [
           {
-            "url": "",
+            "url": "https://codepen.io/ailenalonso/pen/dyaPwEp",
             "title": "Pseudo-classes"
           },
           {
-            "url": "",
+            "url": "week04/images/combinator.png",
             "title": "Combinators"
           },
           {
