@@ -15,19 +15,17 @@ async function displayBusinesses(businesses) {
         let number = document.createElement("p");
         let siteLink = document.createElement("a");
         let company = document.createElement("p");
-        let tier = document.createElement("p");
 
         location.textContent = business.address;
         number.textContent = business.phone;
-        tier.textContent = `${business.tier} Member`;
 
         company.textContent = business.name;
         company.setAttribute("class", "businessName");
         
-        siteLink.textContent = business.url;
-        siteLink.setAttribute("href", business.sitewebsite);
+        siteLink.textContent = business.website;
+        siteLink.setAttribute("href", business.sitewebsite)
 
-        logo.setAttribute("src", business.logo);
+        logo.setAttribute("src", business.img);
         logo.setAttribute("alt", `siteLink of ${business.name}`);
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "456");
@@ -39,7 +37,6 @@ async function displayBusinesses(businesses) {
         card.appendChild(location);
         card.appendChild(number);
         card.appendChild(siteLink);
-        card.appendChild(tier);
 
         cards.appendChild(card);
     })
@@ -61,5 +58,3 @@ function toggleLayout(){
 }
 
 document.getElementById("layoutBtn").addEventListener("click", toggleLayout);
-
-

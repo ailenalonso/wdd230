@@ -4,97 +4,85 @@
         "name": "Brooklyn Bakery",
         "address": "Corrientes 697, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 6222-6709",
-        "url": "https://www.brooklynbakery.net/",
-        "logo": "images/Logos/brooklynbakery.avif",
-        "tier": "Gold"
+        "website": "https://www.brooklynbakery.net/",
+        "img": "images/Logos/brooklynbakery.avif"
     },
     {
         "name": "Veterinary Resburgo",
         "address": "Mariano Pelliza 699, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 4790-5303",
-        "url": "https://clinicaresburgo.com.ar/",
-        "logo": "images/Logos/resburg.avif",
-        "tier": "NP"
+        "website": "https://clinicaresburgo.com.ar/",
+        "img": "images/Logos/resburg.avif"
     },
     {
         "name": "Armonizate Ahora Wellness Events",
         "address": "Avenida Del Libertador 3042, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 56951779",
-        "url": "http://www.armonizateahora.com/",
-        "logo": "images/Logos/armonizate.avif",
-        "tier": "Silver"
+        "website": "http://www.armonizateahora.com/",
+        "img": "images/Logos/armonizate.avif"
     },
     {
         "name": "Pintureria Norte",
         "address": "Vélez Sársfield 5000, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 911 4762-5517",
-        "url": "https://pintunorte.com.ar/",
-        "logo": "images/Logos/pinturerianorte.avif",
-        "tier": "Bronze"
+        "website": "https://pintunorte.com.ar/",
+        "img": "images/Logos/pinturerianorte.avif"
     },
     {
         "name": "Carbe Amoblamientos",
         "address": "Vélez Sársfield 4318, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 911 5125-0400",
-        "url": "http://www.carbeamoblamientos.com.ar/index.php",
-        "logo": "images/Logos/carbe.avif",
-        "tier": "NP"
+        "website": "http://www.carbeamoblamientos.com.ar/index.php",
+        "img": "images/Logos/carbe.avif"
     },
     {
         "name": "Simona",
         "address": "Vélez Sársfield 4231, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 (911) 429-2876",
-        "url": "https://www.simonashop.com.ar",
-        "logo": "images/Logos/simona.avif",
-        "tier": "Silver"
+        "website": "https://www.simonashop.com.ar",
+        "img": "images/Logos/simona.avif"
     },
     {
         "name": "Tea Blends For You",
         "address": "Díaz Vélez 484, B1637 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 (911) 585-2197",
-        "url": "https://www.teablendsforyou.com.ar/",
-        "logo": "images/Logos/teablends.avif",
-        "tier": "Bronze"
+        "website": "https://www.teablendsforyou.com.ar/",
+        "img": "images/Logos/teablends.avif"
     },
     {
         "name": "Maggenta",
         "address": "Guillermo Rawson 3802, B1636 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 911 6223-1361",
-        "url": "https://magentta.com.ar/",
-        "logo": "images/Logos/maggenta.avif",
-        "tier": "Gold"
+        "website": "https://magentta.com.ar/",
+        "img": "images/Logos/maggenta.avif"
     },
     {
         "name": "Quinto Criollo",
         "address": "Rawson 3652, B1636 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 911 4700-2318",
-        "url": "https://www.quintocriollo.com/",
-        "logo": "images/Logos/quintocriollo.avif",
-        "tier": "NP"
+        "website": "https://www.quintocriollo.com/",
+        "img": "images/Logos/quintocriollo.avif"
     },
     {
         "name": "Try Me",
         "address": "Ramón Melgar 781, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 446-2617",
-        "url": "https://try-me.com.ar/",
-        "logo": "images/Logos/tryme.avif",
-        "tier": "Bronze"
+        "website": "https://try-me.com.ar/",
+        "img": "images/Logos/tryme.avif"
     },
     {
         "name": "Petite Affaire",
         "address": "Tapiales 1182, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 4795-1805",
-        "url": "https://www.petiteaffaire.com.ar/",
-        "logo": "images/Logos/petite.avif",
-        "tier": "NP"
+        "website": "https://www.petiteaffaire.com.ar/",
+        "img": "images/Logos/petite.avif"
     },
     {
         "name": "La Pianca Bistro",
         "address": "Tapiales 1136, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 3501-9942",
-        "url": "https://lapianca.com.ar/",
-        "logo": "images/Logos/lapianca.avif",
-        "tier": "Gold"
+        "website": "https://lapianca.com.ar/",
+        "img": "images/Logos/lapianca.avif"
     }
 ]
 }

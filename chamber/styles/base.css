@@ -55,15 +55,6 @@ header .company h1 {
     align-items: center;
 }
 
-.social {
-    display: flex;
-}
-
-.social a {
-    margin-right: 10%;
-    width: 40px;
-}
-
 #hamburgerBtn {
     text-align: end;
 }
@@ -175,41 +166,6 @@ footer {
     border-radius: 10px;
     color: white;
 }
-
-#banner {
-    display: flex;
-    align-items: center;
-    background-color: white;
-  }
-  
-  #banner.close {
-    display: none;
-  }
-  
-  #banner p {
-    margin: 0.75rem 2rem;
-    font-size: 1.2rem;
-  }
-  
-  #close-banner {
-    margin: 0 1rem 0 auto;
-    font-size: 2rem;
-    text-align: right;
-    width: 30px;
-    height: 30px;
-    padding: 0.5rem 0.5rem 0.75rem 0.5rem;
-    text-align: center;
-    color: #1d293f;
-  }
-  
-  #close-banner:hover {
-    color: #d33b3b;
-  }
-  
-  #close-banner::before {
-    content: "🞪";
-  }
-  
 
 /*Discover Styles*/
 #daysBetweenVisits {
@@ -391,7 +347,7 @@ form label.top input:required:valid{
     border-color: #00B295;
     width: 100px;
     height: 50px;
-    }
+}
 
 .businessCards img {
     width: 80%;
@@ -434,4 +390,3 @@ form label.top input:required:valid{
 .directory-list .businessCards p {
     padding: 4px;
 }
-
