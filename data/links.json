@@ -55,7 +55,7 @@
           },
           {
             "url": "week03/bom.html",
-            "title": "Weather API"
+            "title": "Web Storage API - localStorage"
           }
         ]
       },
