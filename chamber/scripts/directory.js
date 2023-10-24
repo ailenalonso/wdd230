@@ -1,60 +1,55 @@
-async function getBusinessesData() {
-    const response = await fetch("data/members.json");
-    const data = await response.json();
-    //console.table(data.businesses);
-    displayBusinesses(data.businesses);
+const url = "https://github.com/ailenalonso/wdd230/blob/main/chamber/data/members.json";
+const directory = document.querySelector("#directory");
+
+async function getMembers(url) {
+  const response = await fetch(url);
+  const data = await response.json();
+
+  displayMembers(data.members);
 }
 
-async function displayBusinesses(businesses) {
-    const cards = document.querySelector(".businessCards");
+function displayMembers(members) {
+  members.forEach((member) => {
+    let item = document.createElement("div");
+    let name = document.createElement("h3");
+    let address = document.createElement("p");
+    let phone = document.createElement("p");
+    let url = document.createElement("a");
+    let logo = document.createElement("img");
+    let tier = document.createElement("p");
 
-    businesses.forEach((business) => {
-        let card = document.createElement("section");
-        let logo = document.createElement("img");
-        let location = document.createElement("p");
-        let number = document.createElement("p");
-        let siteLink = document.createElement("a");
-        let company = document.createElement("p");
+    name.textContent = member.name;
+    address.textContent = member.address;
+    phone.textContent = member.phone;
+    url.textContent = member.url;
+    tier.textContent = `${member.tier} Member`;
 
-        location.textContent = business.address;
-        number.textContent = business.phone;
+    url.setAttribute("href", member.url);
 
-        company.textContent = business.name;
-        company.setAttribute("class", "businessName");
-        
-        siteLink.textContent = business.website;
-        siteLink.setAttribute("href", business.sitewebsite)
+    logo.setAttribute("src", member.logo);
+    logo.setAttribute("alt", `${member.name} logo`);
+    logo.setAttribute("loading", "lazy");
+    logo.setAttribute("width", "192");
+    logo.setAttribute("height", "192");
 
-        logo.setAttribute("src", business.img);
-        logo.setAttribute("alt", `siteLink of ${business.name}`);
-        logo.setAttribute("loading", "lazy");
-        logo.setAttribute("width", "456");
-        logo.setAttribute("height", "250");
-        logo.setAttribute("class", "businessLogo");
+    item.appendChild(logo);
+    item.appendChild(name);
+    item.appendChild(address);
+    item.appendChild(phone);
+    item.appendChild(url);
+    item.appendChild(tier);
 
-        card.appendChild(logo);
-        card.appendChild(company);
-        card.appendChild(location);
-        card.appendChild(number);
-        card.appendChild(siteLink);
-
-        cards.appendChild(card);
-    })
+    directory.appendChild(item);
+  });
 }
 
-getBusinessesData();
+getMembers(url);
 
-function toggleLayout(){
-    if (document.querySelector(".listBtn")){
-        document.getElementById("directory-main").setAttribute("class", "directory-list");
-        document.getElementById("layoutBtn").setAttribute("class", "gridBtn");
-        document.getElementById("layoutBtn").innerHTML = "Grid";
-    }
-    else {
-        document.getElementById("directory-main").setAttribute("class", "directory-grid");
-        document.getElementById("layoutBtn").setAttribute("class", "listBtn");
-        document.getElementById("layoutBtn").innerHTML = "List";
-    }
-}
+const layoutButton = document.querySelector("#layout-button");
 
-document.getElementById("layoutBtn").addEventListener("click", toggleLayout);
+layoutButton.addEventListener("click", () => {
+  directory.classList.toggle("list");
+  layoutButton.classList.toggle("list");
+
+  // ☵ ☷ ☶ ⊞
+});
