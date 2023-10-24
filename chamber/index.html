@@ -17,6 +17,7 @@
     <meta property="og:url" content="https://ailenalonso.github.io/wdd230/chamber">
 </head>
 <body>
+    <div id="banner"></div>
     <header>
         <div class="brand">
             <a class="logo-image" href="index.html">
@@ -27,6 +28,14 @@
             </section>
         </div>
         <div class="navigation">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram">
+                </a>
+            </div>
             <button id="hamburgerBtn">&#9776;</button>
         </div>
         <nav id="primaryNav">
@@ -35,30 +44,57 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main class="home-grid">
         <section id="hero-banner">
-            <a href="#">Join the Chamber</a>
-            <h2 class="text-light italic">Hero with site name and call to action</h2>
+            <a href="join.html">Join the Chamber</a>
+            <picture>
+                <source media="(min-width: 700px)" srcset="images/hero-img-large.webp" width="960" height="480">
+                <source media="(min-width: 500px)" srcset="images/hero-img-small.webp" width="700" height="350">
+                <img src="images/hero-img-large.webp" alt="Aerial view of Coeur d'Alene" width="500" height="250">
+            </picture>
         </section>
         <section class="event">
-            <h2 class="text-light italic">Event</h2>
+            <h2>Comunity Event</h2><br>
+             Join us for this event that we are holding at a time and place.
         </section>
         <section class="weather">
-            <h2 class="text-light italic">Weather</h2>
+            <h2>Weather</h2>
+            <div>
+                <picture>
+                    <img id="weatherIcon" src="#" alt="Weather Icon">
+                </picture>
+                <p><span id="temperature">Temp Placeholder</span>°C</p>
+            </div>
+                <h3><span id="condition">Weather Condition</span></h3>
+            <hr>
+            <p>Wind Speed: <span id="windSpeed"></span>km/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
         </section>
         <div class="spotlight">
             <section class="spotlight1">
-                <h3 class="text-light italic">Spotlight 1</h3>
+                <H3 class="inner">Company Guys</H3>
+                <H4 class="inner">"Company of the month"</H4>
+                <hr>
+                <p>info@companyguys</p>
+                <p>+54 911 123 4567 | Website</p>
+            </section>
             </section>
             <section class="spotlight2">
-                <h3 class="text-light italic">Spotlight 2</h3>
+                <H3 class="inner">People with a Company</H3>
+                <p>
+                    A company that does more things and stuff, 
+                    and stuff and things.
+                </p> 
             </section>
             <section id="spotlight3" class="large-only">
-                <h3 class="text-light italic">Spotlight 3</h3>
+                <h3 class="inner">Bussines Men</h3>
+                <p>
+                   A company that does things and stuff, 
+                   and stuff and things.
+               </p>                
             </section>
         </div>
     </main> 
@@ -68,5 +104,6 @@
     </footer>
     <script src="scripts/lastUpdated.js" defer></script>
     <script src="scripts/currentYear.js"></script>
+    <script src="scripts/displayBanner.js"></script>
 </body>
 </html>
