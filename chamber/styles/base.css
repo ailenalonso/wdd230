@@ -391,7 +391,7 @@ form label.top input:required:valid{
     border-color: #00B295;
     width: 100px;
     height: 50px;
-}
+    }
 
 .businessCards img {
     width: 80%;
