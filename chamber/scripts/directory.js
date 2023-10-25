@@ -51,12 +51,12 @@ function toggleLayout(){
     if (document.querySelector(".listBtn")){
         document.getElementById("directory-main").setAttribute("class", "directory-list");
         document.getElementById("layoutBtn").setAttribute("class", "gridBtn");
-        document.getElementById("layoutBtn").innerHTML = "Grid";
+        document.getElementById("layoutBtn").innerHTML = "⊞";
     }
     else {
         document.getElementById("directory-main").setAttribute("class", "directory-grid");
         document.getElementById("layoutBtn").setAttribute("class", "listBtn");
-        document.getElementById("layoutBtn").innerHTML = "List";
+        document.getElementById("layoutBtn").innerHTML = "☷";
     }
 }
 

@@ -371,24 +371,26 @@ form label.top input:required:valid{
 
 /*Directory*/
 #layoutBtn {
-    background-color: #00B295;
-    color: #1F271B;
-    font-weight: bold;
+    background-color: #1F271B;
+    color: white;
     border-radius: 15px;
-    border-color: #00B295;
+    border-color: #1F271B;
     width: 100px;
     height: 50px;
 }
 
 .businessCards img {
-    width: 80%;
+    width: 50%;
     height: auto;
+    margin: 5%;
 }
+
 
 #directory-main div {
     border: none;
     background-color: white;
     margin: 0;
+    align-items: center;
 }
 
 .businessCards p {
@@ -397,10 +399,11 @@ form label.top input:required:valid{
 }
 
 .directory-grid .businessCards section {
-    padding: 10%;
+    padding: 10px;
     border-radius: 10%;
     border-style: hidden;
     box-shadow: 8px 8px 10px black;
+    text-align: center;
 }
 .directory-grid .businessName {
     display: none;
@@ -411,13 +414,8 @@ form label.top input:required:valid{
 }
 
 .directory-list .businessCards section {
-    padding: 5%;
-    margin: 5%;
+    padding: 10px;
     text-align: start;
     border-style: none;
     box-shadow: 8px 8px 10px black;
-}
-
-.directory-list .businessCards p {
-    padding: 4px;
 }
