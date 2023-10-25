@@ -25,7 +25,7 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-bottom: 5%;
-    padding: 0 2% 3% 2%; border-radius: 10px;
+    padding: 0 2% 3% 2%; 
     color: white;
 }
 
@@ -96,6 +96,60 @@ header a {
     background-color: #AD8A64;
 }
 
+.social {
+    display: flex;
+}
+
+.social a {
+    margin-right: 10%;
+    width: 40px;
+}
+
+footer {
+    background-color: #1F271B;
+    display: block;
+    padding: 2% 2% 0 2%;
+    align-items: center;
+    font-size: 70%;
+    color: white;
+}
+
+/*Home Page*/
+
+#banner {
+    display: flex;
+    align-items: center;
+    background-color: #AD8A64;
+}
+  
+#banner.close {
+    display: none;
+}
+  
+#banner p {
+    margin: 0.75rem 2rem;
+    font-size: 1 rem;
+}
+  
+#close-banner {
+    margin: 0 1rem 0 auto;
+    font-size: 2rem;
+    text-align: right;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+    text-align: center;
+}
+  
+#close-banner:hover {
+    color: white;
+}
+  
+#close-banner::before {
+    content: "🞪";
+}
+  
+
 main {
     max-width: 100%;
     margin-left: 5%;
@@ -156,16 +210,6 @@ main section p, main div p {
     display: none;
 }
 
-
-footer {
-    background-color: #1F271B;
-    display: block;
-    padding: 2% 2% 0 2%;
-    align-items: center;
-    font-size: 70%;
-    border-radius: 10px;
-    color: white;
-}
 
 /*Discover Styles*/
 #daysBetweenVisits {
