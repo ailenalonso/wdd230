@@ -148,8 +148,7 @@
     .join-grid {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        margin: auto;
-        margin-right: 35px;
+        margin: 5%;
         gap: 15px;
         align-items: center;
     }
