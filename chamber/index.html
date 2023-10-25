@@ -48,36 +48,63 @@
         </nav>
     </header>
     <main class="home-grid">
-        <section id="hero-banner">
-            <a href="join.html">Join the Chamber</a>
+        <section class="hero-banner">
             <picture>
-                <source media="(min-width: 700px)" srcset="images/hero-img-large.webp" width="960" height="480">
-                <source media="(min-width: 500px)" srcset="images/hero-img-small.webp" width="700" height="350">
-                <img src="images/hero-img-large.webp" alt="Aerial view of Coeur d'Alene" width="500" height="250">
+                <source media="(min-width: 700px)" srcset="images/vicentelopez-large.webp" width="960" height="480">
+                <source media="(min-width: 500px)" srcset="images/vicentelopez-small.webp" width="700" height="350">
+                <img src="images/vicentelopez-large.webp" alt="Vicente Lopez Cost Views" width="500" height="250">
+                <div class="join-button">
+                    <a href="join.html">Join the Chamber</a>
+                </div>
             </picture>
         </section>
-        <section class="event">
-            <h2>Comunity Event</h2><br>
-             Join us for this event that we are holding at a time and place.
+        <section class="events">
+            <h2>Events</h2>
+            <hr>
+            <h3>Business Expo</h3>
+            <p>The Vicente Lopez Chamber of Commerce hosted a vibrant Business Expo, featuring local businesses and entrepreneurs. This event provided a platform for networking, showcasing products and services, and fostering collaboration within the community.</p>
+            <hr>
+            <h3>Economic Symposium</h3>
+            <p>The Chamber organized an Economic Symposium, bringing together experts and business leaders to discuss key economic trends and opportunities in Vicente Lopez. The event aimed to stimulate economic growth and innovation in the region.</p>
+            <hr>
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <div>
-                <picture>
-                    <img id="weatherIcon" src="#" alt="Weather Icon">
-                </picture>
-                <p><span id="temperature">Temp Placeholder</span>°C</p>
-            </div>
-                <h3><span id="condition">Weather Condition</span></h3>
             <hr>
-            <p>Wind Speed: <span id="windSpeed"></span>km/h</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
+            <div class="current-weather">
+                <p id="weather-location"></p>
+                <div class="weather">
+                  <img id="weather-icon" src="#" alt="">
+                  <span id="current-temp"></span>
+                  <span>&nbsp;-&nbsp;</span>
+                  <span id="weather-description"></span>
+                </div>
+            </div>
+            <hr>
         </section>
         <div class="spotlight">
-            <section class="member-advertising">
-                <h2>Member Spotlights</h2>
-                <div class="spotlights"></div>
-            </section>
+            <h2>Member Spotlights</h2>
+                <section class="spotlight1">
+                <h3 class="inner">Company Guys</h3>
+                    <h4>"Company of the month"</h4>
+                    <hr>
+                    <p>info@companyguys</p>
+                    <p>+54 911 123 4567 | Website</p>
+                </section>
+                <section class="spotlight2">
+                    <h3 class="inner">People with a Company</h3>
+                    <p>
+                        A company that does more things and stuff, 
+                        and stuff and things.
+                    </p> 
+                </section>
+                <section id="spotlight3">
+                     <h3 class="inner">Bussines Men</h3>
+                     <p>
+                        A company that does things and stuff, 
+                        and stuff and things.
+                    </p>
+                </section>
         </div>
     </main> 
     <footer>
@@ -87,6 +114,7 @@
     <script src="scripts/lastUpdated.js" defer></script>
     <script src="scripts/currentYear.js"></script>
     <script src="scripts/displayBanner.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/spotplight.js"></script>
 </body>
 </html>

@@ -8,6 +8,16 @@ body {
     color: black;
 }
 
+main section, main div {
+    margin: 2rem;
+    background-color: #F3FCF0;
+    border: 1px solid black;
+}
+
+main section p, main div p {
+    padding: 5%;
+}
+
 img {
     width: 100%;
 }
@@ -140,66 +150,122 @@ footer {
     content: "🞪";
 }
   
-main {
-    max-width: 100%;
-    margin: 5%;
-    margin-bottom: 5%;
+.home-grid {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-main section, main div {
-    margin: 2rem;
-    background-color: #ececec;
-    border: 1px solid black;
-}
-
-main section p, main div p {
-    padding: 5%;
-}
-
-#hero-banner {
-    position: relative;
-    padding: 0;
-}
-
-.weather {
-    box-sizing: border-box;
-    padding: 2%;
-}
-
-.weather div {
-    height: 30%;
-    width: 80%;
+.hero-banner {
+    margin-bottom: 1rem;
     border: none;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
-
-.weather div p {
-    font-size: 150%;
+  
+.hero-banner img {
+    width: 100%;
+    height: auto;
 }
-
-.weather p {
-    margin: 0;
+  
+.join-button {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: -40%;
+    left: 50%;
+    max-width: fit-content;
+    min-width: 284px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #AD8A64;
+    border-radius: 5px;
+    padding: 10px;
 }
-
+  
+.join-button a {
+    padding: 1rem;
+    color: black;
+}
+  
+.join-button:hover {
+    color: black;
+    background-color: #ececec;
+}
+  
+.events,
+.weather,
+.member,
 .spotlight {
-    background-color: white;
-    padding: 2%;
-    border: 1px solid black;
+    padding: 1rem;
+    border: 1px solid black ;
+    margin: 1rem;
+    background-color: #ececec;
 }
-
-.spotlight section {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 2%;
-    word-wrap: break-word;
+  
+.events {
+    margin: 0.5rem 1rem;
+}
+  
+.events h3 {
+    margin-bottom: 0;
+}
+  
+.events p {
+    margin: 0.5rem 0;
+}
+  
+.events a {
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+}
+  
+.weather {
+    margin: 0.5rem 1rem;
+}
+  
+#weather-icon {
+    display: block;
+    margin: 0 auto;
+}
+  
+.weather h3,
+.weather p {
+    text-align: center;
+}
+  
+.weather p {
+    margin: 0.3rem;
+}
+  
+.weather h3 {
+    margin-bottom: 0;
+}
+  
+#current-temp {
+    font-size: 1.5rem;
+}
+  
+#weather-description {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+  
+.spotlight {
+    text-align: center;
+    margin: 1rem;
+    border: 1px black;
+}
+  
+.spotlight p {
+    margin: 0.5rem 0;
+}
+  
+.spotlight a {
+    text-decoration: underline;
+    padding: 0.3rem 0;
 }
 
 .large-only, .medium-display {
     display: none;
 }
-
 
 /*Discover Styles*/
 #daysBetweenVisits {
