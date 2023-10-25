@@ -15,9 +15,11 @@ async function displayBusinesses(businesses) {
         let number = document.createElement("p");
         let siteLink = document.createElement("a");
         let company = document.createElement("p");
+        let level = document.createElement("p");
 
         location.textContent = business.address;
         number.textContent = business.phone;
+        level.textContent = business.level;
 
         company.textContent = business.name;
         company.setAttribute("class", "businessName");
@@ -37,6 +39,7 @@ async function displayBusinesses(businesses) {
         card.appendChild(location);
         card.appendChild(number);
         card.appendChild(siteLink);
+        card.appendChild(level);
 
         cards.appendChild(card);
     })

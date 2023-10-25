@@ -5,84 +5,96 @@
         "address": "Corrientes 697, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 6222-6709",
         "website": "https://www.brooklynbakery.net/",
-        "img": "images/Logos/brooklynbakery.avif"
+        "img": "images/Logos/brooklynbakery.avif",
+        "level":"NP"
     },
     {
         "name": "Veterinary Resburgo",
         "address": "Mariano Pelliza 699, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 4790-5303",
         "website": "https://clinicaresburgo.com.ar/",
-        "img": "images/Logos/resburg.avif"
+        "img": "images/Logos/resburg.avif",
+        "level":"Silver"
     },
     {
         "name": "Armonizate Ahora Wellness Events",
         "address": "Avenida Del Libertador 3042, B1636 Olivos, Provincia de Buenos Aires",
         "phone": "+54 911 56951779",
         "website": "http://www.armonizateahora.com/",
-        "img": "images/Logos/armonizate.avif"
+        "img": "images/Logos/armonizate.avif",
+        "level":"Gold"
     },
     {
         "name": "Pintureria Norte",
         "address": "Vélez Sársfield 5000, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 911 4762-5517",
         "website": "https://pintunorte.com.ar/",
-        "img": "images/Logos/pinturerianorte.avif"
+        "img": "images/Logos/pinturerianorte.avif",
+        "level":"Gold"
     },
     {
         "name": "Carbe Amoblamientos",
         "address": "Vélez Sársfield 4318, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 911 5125-0400",
         "website": "http://www.carbeamoblamientos.com.ar/index.php",
-        "img": "images/Logos/carbe.avif"
+        "img": "images/Logos/carbe.avif",
+        "level":"NP"
     },
     {
         "name": "Simona",
         "address": "Vélez Sársfield 4231, B1605 Munro, Provincia de Buenos Aires",
         "phone": "+54 (911) 429-2876",
         "website": "https://www.simonashop.com.ar",
-        "img": "images/Logos/simona.avif"
+        "img": "images/Logos/simona.avif",
+        "level":"Bronze"
     },
     {
         "name": "Tea Blends For You",
         "address": "Díaz Vélez 484, B1637 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 (911) 585-2197",
         "website": "https://www.teablendsforyou.com.ar/",
-        "img": "images/Logos/teablends.avif"
+        "img": "images/Logos/teablends.avif",
+        "level":"Silver"
     },
     {
         "name": "Maggenta",
         "address": "Guillermo Rawson 3802, B1636 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 911 6223-1361",
         "website": "https://magentta.com.ar/",
-        "img": "images/Logos/maggenta.avif"
+        "img": "images/Logos/maggenta.avif",
+        "level":"NP"
     },
     {
         "name": "Quinto Criollo",
         "address": "Rawson 3652, B1636 La Lucila, Provincia de Buenos Aires",
         "phone": "+54 911 4700-2318",
         "website": "https://www.quintocriollo.com/",
-        "img": "images/Logos/quintocriollo.avif"
+        "img": "images/Logos/quintocriollo.avif",
+        "level":"Silver"
     },
     {
         "name": "Try Me",
         "address": "Ramón Melgar 781, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 446-2617",
         "website": "https://try-me.com.ar/",
-        "img": "images/Logos/tryme.avif"
+        "img": "images/Logos/tryme.avif",
+        "level":"Bronze"
     },
     {
         "name": "Petite Affaire",
         "address": "Tapiales 1182, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 4795-1805",
         "website": "https://www.petiteaffaire.com.ar/",
-        "img": "images/Logos/petite.avif"
+        "img": "images/Logos/petite.avif",
+        "level":"NP"
     },
     {
         "name": "La Pianca Bistro",
         "address": "Tapiales 1136, B1638 Vicente López, Provincia de Buenos Aires",
         "phone": "+54 911 3501-9942",
         "website": "https://lapianca.com.ar/",
-        "img": "images/Logos/lapianca.avif"
+        "img": "images/Logos/lapianca.avif",
+        "level":"Gold"
     }
 ]
 }
