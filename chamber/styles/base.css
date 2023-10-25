@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&display=swap');
 
 body {
-    max-width: 1200px;
-    min-width: 350px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     align-items: center;
-    justify-content: center;
-    display: block;
-    text-align: center;
     font-family:'Lato', sans-serif;
-}
-
-h1 {
-    font-family: 'Archivo Black', sans-serif;
+    color: black;
 }
 
 img {
@@ -47,7 +39,6 @@ header .company {
 header .company h1 {
     margin-bottom: -5px;
 }
-
 
 .navigation {
     display: flex;
@@ -149,10 +140,9 @@ footer {
     content: "🞪";
 }
   
-
 main {
     max-width: 100%;
-    margin-left: 5%;
+    margin: 5%;
     margin-bottom: 5%;
 }
 
@@ -220,6 +210,7 @@ main section p, main div p {
     padding: 2% 1% 2% 1%;
     font-size: 150%;
     border-radius: 10px;
+    text-align: center;
 }
 
 .discover-imgs {
@@ -239,7 +230,6 @@ main section p, main div p {
 }
 
 .sidebar section {
-    margin: 0.5rem;
     background-color: #1F271B;
     color: #ececec;
     border-radius: 10px;
@@ -264,14 +254,11 @@ main section p, main div p {
     font-weight: bold;
 }
 
-
 .agenda,
 .weather-discover,
 .demographics {
   padding: 1rem;
-  border: 1px solid var(--primary-color);
-  margin: 0.5rem 0;
-  background-color: var(--secondary-color);
+  margin: 5%;
 }
 
 .agenda h3 {
@@ -292,9 +279,9 @@ main section p, main div p {
 }
 
 .discover-grid section, main div {
-    background-color: #ececec;
-    border: 1px solid rgb(0, 0, 0);
-    width: 90%;
+    border: 0; 
+    width: 80%;
+    background-color: white;
 }
 
 .daysBetweenVisits {
