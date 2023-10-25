@@ -279,6 +279,10 @@ footer {
     text-align: center;
 }
 
+.discover-grid {
+    margin: 5%;
+}
+
 .discover-imgs {
     box-sizing: border-box;
     border: 5px transparent #1F271B;
@@ -455,7 +459,7 @@ form label.top input:required:valid{
 #directory-main div {
     border: none;
     background-color: white;
-    margin: 0;
+    margin: 5%;
     align-items: center;
 }
 
